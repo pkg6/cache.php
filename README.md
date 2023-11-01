@@ -82,3 +82,7 @@ $redis = Cache::store('redis');
 $redis->set('var','value',600);
 $redis->get('var');
 ~~~
+
+> pkg6/cache 参考[think-cache](https://github.com/top-think/think-cache)进行代码实现。
+>
+> 更多内容可以参考 https://www.kancloud.cn/manual/thinkphp6_0/1037634

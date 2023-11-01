@@ -1,6 +1,17 @@
 {
   "name": "pkg6/cache",
   "license": "MIT",
+  "description": "A cache that is more comfortable to use for Chinese people",
+  "keywords": [
+    "cache",
+    "easy-cache",
+    "think-cache",
+    "cache-file",
+    "cache-redis",
+    "cache-memcache",
+    "cache-memcached",
+    "cache-wincache"
+  ],
   "authors": [
     {
       "name": "zzqqw",

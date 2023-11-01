@@ -17,5 +17,13 @@
     "psr-4": {
       "Pkg6\\Cache\\": "src/"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6|^7|^8|^9"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pkg6\\Cache\\Tests\\": "tests/"
+    }
   }
 }

@@ -213,7 +213,7 @@ abstract class Driver implements CacheInterface
      */
     protected function unserialize(string $data)
     {
-        return json_decode($data);
+        return json_decode($data,true);
     }
 
     /**

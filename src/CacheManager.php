@@ -8,6 +8,11 @@ use Pkg6\Cache\exception\InvalidArgumentException;
 use Psr\Cache\CacheItemInterface;
 use Psr\Cache\CacheItemPoolInterface;
 
+/**
+ * @Cache
+ * @see Driver
+ * @mixin Driver
+ */
 class CacheManager implements CacheItemPoolInterface
 {
 

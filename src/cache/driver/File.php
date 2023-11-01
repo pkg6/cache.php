@@ -36,10 +36,13 @@ class File extends Driver
         if (!empty($options)) {
             $this->options = array_merge($this->options, $options);
         }
-
+        if (empty($this->options['path'])){
+            $this->options['path'] = sys_get_temp_dir().DIRECTORY_SEPARATOR."phpcache";
+        }
         if (substr($this->options['path'], -1) != DIRECTORY_SEPARATOR) {
             $this->options['path'] .= DIRECTORY_SEPARATOR;
         }
+        var_dump($this->options["path"]);
     }
 
     /**
